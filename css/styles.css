@@ -935,7 +935,7 @@ body {
 }
 
 .contact-form-checkbox-wrapper {
-  display: inline-flex;
+  display: block;
   align-items: center;
   font-family: "Roboto";
   font-style: normal;

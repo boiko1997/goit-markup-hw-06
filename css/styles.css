@@ -946,7 +946,9 @@ body {
   color: var(--customers);
 }
 
-.contact-form-checkbox:checked + .form-checkbox {
+.contact-form-checkbox:checked
+  + .contact-form-checkbox-wrapper
+  > .form-checkbox {
   background-color: var(--blue-color);
   border: none;
   fill: var(--title);

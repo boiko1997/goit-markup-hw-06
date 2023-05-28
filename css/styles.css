@@ -893,11 +893,11 @@ body {
 }
 
 .contact-form-message::placeholder {
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 12px;
-  line-height: 1.16;
+  line-height: 1.17;
   letter-spacing: 0.04em;
   color: rgba(46, 47, 66, 0.4);
 }
@@ -935,7 +935,7 @@ body {
 }
 
 .contact-form-checkbox-wrapper {
-  display: flex;
+  display: inline-flex;
   align-items: center;
   font-family: "Roboto";
   font-style: normal;
@@ -960,13 +960,13 @@ body {
 }
 
 .form-checkbox {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
   width: 16px;
   height: 16px;
   border: 1px solid rgba(46, 47, 66, 0.4);
   border-radius: 2px;
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
   fill: transparent;
   margin-right: 8px;
 }
